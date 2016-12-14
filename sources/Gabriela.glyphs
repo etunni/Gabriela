@@ -1,5 +1,5 @@
 {
-.appVersion = "926";
+.appVersion = "948";
 classes = (
 {
 code = "hungarumlaut acute ampersand circumflex grave a b c d e f g h i j k l m n o p q r s t u v w x y z tilde lslash scaron zcaron dieresis breve caron dotaccent macron ogonek ring cedilla agrave aacute acircumflex atilde adieresis aring ae ccedilla egrave eacute ecircumflex edieresis igrave iacute icircumflex idieresis eth ntilde ograve oacute ocircumflex otilde odieresis oe oslash ugrave uacute ucircumflex udieresis yacute thorn ydieresis fi fl germandbls ordfeminine ordmasculine exclam question exclamdown questiondown";
@@ -30,7 +30,7 @@ code = "parenleft parenright hyphen bracketleft bracketright braceleft bar brace
 name = case1;
 }
 );
-copyright = "Copyright (c) 2013, Eduardo Tunni (http://www.tipo.net.ar), with Reserved Font Name 'Gabriela'";
+copyright = "Copyright 2013 The Gabriela Project Authors (edu@tipo.net.ar), with Reserved Font Name \"Gabriela\".";
 customParameters = (
 {
 name = licenseURL;
@@ -75,34 +75,6 @@ languagesystem latn dflt;
 name = "FontLab OTPanel";
 }
 );
-features = (
-{
-code = "sub f i by fi ;
-  sub f l by fl ;
-  sub f f by f_f ;
-  sub f t by ft ;
-  sub f f i by f_f_i ;
-  sub f f l by f_f_l ;
-";
-name = liga;
-},
-{
-code = "sub u y' by y.calt ;
-  sub y' u by y.calt;
-";
-name = calt;
-},
-{
-code = "sub z by z.alt ;
-";
-name = ss01;
-},
-{
-code = "sub z by z.alt ;
-";
-name = salt;
-}
-);
 fontMaster = (
 {
 alignmentZones = (
@@ -136,7 +108,7 @@ value = -295;
 },
 {
 name = winDescent;
-value = 295;
+value = -295;
 },
 {
 name = hheaLineGap;
