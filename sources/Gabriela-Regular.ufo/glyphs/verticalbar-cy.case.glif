@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="verticalbar-cy.case" format="1">
+  <advance width="142"/>
+  <outline>
+    <contour>
+      <point x="62" y="231"/>
+      <point x="84" y="235"/>
+      <point x="94" y="251" type="curve"/>
+      <point x="94" y="492" type="line"/>
+      <point x="79" y="492"/>
+      <point x="58" y="487"/>
+      <point x="48" y="471" type="curve"/>
+      <point x="48" y="231" type="line"/>
+    </contour>
+    <contour>
+      <point x="71" y="361" type="move" name="_center"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
+      <integer>10</integer>
+      <key>com.schriftgestaltung.Glyphs.Export</key>
+      <false/>
+      <key>com.typemytype.robofont.layerData</key>
+      <dict>
+        <key>background</key>
+        <dict>
+          <key>anchors</key>
+          <array>
+          </array>
+          <key>components</key>
+          <array>
+            <dict>
+              <key>baseGlyph</key>
+              <string>Ka-cy</string>
+              <key>transformation</key>
+              <array>
+                <integer>1</integer>
+                <integer>0</integer>
+                <integer>0</integer>
+                <integer>1</integer>
+                <integer>-180</integer>
+                <integer>0</integer>
+              </array>
+            </dict>
+          </array>
+          <key>contours</key>
+          <array>
+          </array>
+          <key>lib</key>
+          <dict>
+          </dict>
+          <key>name</key>
+          <string>verticalbar-cy.case</string>
+          <key>unicodes</key>
+          <array>
+          </array>
+          <key>width</key>
+          <integer>142</integer>
+        </dict>
+      </dict>
+      <key>public.markColor</key>
+      <string>0.75,0.75,0.75,1</string>
+    </dict>
+  </lib>
+</glyph>

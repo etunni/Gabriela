@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="eslash" format="1">
+  <advance width="348"/>
+  <outline>
+    <contour>
+      <point x="302" y="384" type="line" smooth="yes"/>
+      <point x="322" y="394"/>
+      <point x="326" y="417"/>
+      <point x="326" y="474" type="curve"/>
+      <point x="46" y="334" type="line" smooth="yes"/>
+      <point x="26" y="324"/>
+      <point x="22" y="301"/>
+      <point x="22" y="244" type="curve"/>
+    </contour>
+  </outline>
+</glyph>

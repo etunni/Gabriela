@@ -1,19 +1,10 @@
-### Gabriela Font
+### Bulgarian development branch of Gabriela Font
 
-by Eduardo Tunni
-
-
-Gabriela is a serif typeface with soft shapes, and special terminal forms which are shaped like curls. They connect each letter to create attractive word shapes and text blocks with a fine texture. In small bodies of text she works well for reading, and in headlines provides interesting details to catch the eye.
-
-Updated in June 2013 with support for Cyrillic.
-
-
-![Gabriela](sources/Gabriela-CYRILLIC-specimen.jpg)
+Gabriale is an open-source font by Eduardo Tunni (@etunni)
 
 ### Copyright
 
-Copyright (c) 2013, Eduardo Tunni (http://www.tipo.net.ar edu@tipo.net.ar), with Reserved Font Name 'Gabriela'
-
+Copyright 2013 The Gabriela Project Authors (edu@tipo.net.ar), with Reserved Font Name “Gabriela”.
 
 ### License
 
@@ -23,9 +14,4 @@ http://scripts.sil.org/OFL
 
 
 ### Todo
-
-* Prepare glyphs file: make comb accents
-* Add Vietnamese support
-* Add GF Cyrillic Plus support
-
 
