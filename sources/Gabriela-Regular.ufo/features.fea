@@ -1,0 +1,20 @@
+@normal = [ hungarumlaut acute ampersand circumflex grave a b c d e f g h i j k l m n o p q r s t u v w x y z tilde lslash scaron zcaron dieresis breve caron dotaccent macron ogonek ring cedilla agrave aacute acircumflex atilde adieresis aring ae ccedilla egrave eacute ecircumflex edieresis igrave iacute icircumflex idieresis eth ntilde ograve oacute ocircumflex otilde odieresis oe oslash ugrave uacute ucircumflex udieresis yacute thorn ydieresis fi fl germandbls ordfeminine ordmasculine exclam question exclamdown questiondown ];
+
+@num_lfig = [ parenleft parenright ];
+
+@snum = [ zero one two three four five six seven eight nine parenleft parenright ];
+
+@num_sups = [ onesuperior twosuperior threesuperior ];
+
+@num_frac = [ onehalf onequarter threequarters ];
+
+@mayusculas = [ A B C D E F G H I J K L M N O P Q R S T U V W X Y Z AE OE germandbls Eth Aacute Acircumflex Adieresis Agrave Aring Atilde Ccedilla Eacute Ecircumflex Edieresis Egrave Iacute Icircumflex Idieresis Igrave Ntilde Oacute Ocircumflex Odieresis Ograve Otilde Scaron Uacute Ucircumflex Udieresis Ugrave Yacute Ydieresis Zcaron ];
+
+@case1 = [ parenleft parenright hyphen bracketleft bracketright braceleft bar braceright brokenbar guillemotleft guillemotright endash emdash bullet guilsinglleft guilsinglright ];
+
+# Prefix: FontLab OTPanel
+# FEA syntax (compatible with AFDKO 2.5 and FLS 5.1)
+# LANGUAGESYSTEMS BEGIN
+languagesystem latn dflt;
+# LANGUAGESYSTEMS END
+

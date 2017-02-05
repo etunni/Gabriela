@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="caroncomb" format="1">
+  <advance width="374"/>
+  <unicode hex="030C"/>
+  <outline>
+    <component base="caron"/>
+    <contour>
+      <point x="187" y="764" type="move" name="top"/>
+    </contour>
+    <contour>
+      <point x="187" y="497" type="move" name="_top"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
+      <integer>4</integer>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>
