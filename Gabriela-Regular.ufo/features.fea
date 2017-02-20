@@ -1,0 +1,335 @@
+languagesystem DFLT dflt;
+languagesystem cyrl BGR ;
+languagesystem latn dflt;
+
+
+# GSUB 
+
+
+lookup loclLocalizedFormsinCyrilliclookup6 {
+  lookupflag 0;
+    sub \uni0410 by \uni0410.loclBGR ;
+    sub \uni0411 by \uni0411.loclBGR ;
+    sub \uni0412 by \uni0412.loclBGR ;
+    sub \uni0413 by \uni0413.loclBGR ;
+    sub \uni0414 by \uni0414.loclBGR ;
+    sub \uni0415 by \uni0415.loclBGR ;
+    sub \uni0416 by \uni0416.loclBGR ;
+    sub \uni0417 by \uni0417.loclBGR ;
+    sub \uni0418 by \uni0418.loclBGR ;
+    sub \uni0419 by \uni0419.loclBGR ;
+    sub \uni041A by \uni041A.loclBGR ;
+    sub \uni041B by \uni041B.loclBGR ;
+    sub \uni041C by \uni041C.loclBGR ;
+    sub \uni041D by \uni041D.loclBGR ;
+    sub \uni041E by \uni041E.loclBGR ;
+    sub \uni041F by \uni041F.loclBGR ;
+    sub \uni0420 by \uni0420.loclBGR ;
+    sub \uni0421 by \uni0421.loclBGR ;
+    sub \uni0422 by \uni0422.loclBGR ;
+    sub \uni0423 by \uni0423.loclBGR ;
+    sub \uni0424 by \uni0424.loclBGR ;
+    sub \uni0425 by \uni0425.loclBGR ;
+    sub \uni0426 by \uni0426.loclBGR ;
+    sub \uni0427 by \uni0427.loclBGR ;
+    sub \uni0428 by \uni0428.loclBGR ;
+    sub \uni0429 by \uni0429.loclBGR ;
+    sub \uni042A by \uni042A.loclBGR ;
+    sub \uni042B by \uni042B.loclBGR ;
+    sub \uni042C by \uni042C.loclBGR ;
+    sub \uni042D by \uni042D.loclBGR ;
+    sub \uni042E by \uni042E.loclBGR ;
+    sub \uni042F by \uni042F.loclBGR ;
+    sub \uni0430 by \uni0430.loclBGR ;
+    sub \uni0431 by \uni0431.loclBGR ;
+    sub \uni0432 by \uni0432.loclBGR ;
+    sub \uni0433 by \uni0433.loclBGR ;
+    sub \uni0434 by \uni0434.loclBGR ;
+    sub \uni0435 by \uni0435.loclBGR ;
+    sub \uni0436 by \uni0436.loclBGR ;
+    sub \uni0437 by \uni0437.loclBGR ;
+    sub \uni0438 by \uni0438.loclBGR ;
+    sub \uni0439 by \uni0439.loclBGR ;
+    sub \uni043A by \uni043A.loclBGR ;
+    sub \uni043B by \uni043B.loclBGR ;
+    sub \uni043C by \uni043C.loclBGR ;
+    sub \uni043D by \uni043D.loclBGR ;
+    sub \uni043E by \uni043E.loclBGR ;
+    sub \uni043F by \uni043F.loclBGR ;
+    sub \uni0440 by \uni0440.loclBGR ;
+    sub \uni0441 by \uni0441.loclBGR ;
+    sub \uni0442 by \uni0442.loclBGR ;
+    sub \uni0443 by \uni0443.loclBGR ;
+    sub \uni0444 by \uni0444.loclBGR ;
+    sub \uni0445 by \uni0445.loclBGR ;
+    sub \uni0446 by \uni0446.loclBGR ;
+    sub \uni0447 by \uni0447.loclBGR ;
+    sub \uni0448 by \uni0448.loclBGR ;
+    sub \uni0449 by \uni0449.loclBGR ;
+    sub \uni044A by \uni044A.loclBGR ;
+    sub \uni044B by \uni044B.loclBGR ;
+    sub \uni044C by \uni044C.loclBGR ;
+    sub \uni044D by \uni044D.loclBGR ;
+    sub \uni044E by \uni044E.loclBGR ;
+    sub \uni044F by \uni044F.loclBGR ;
+    sub \uni045D by \uni045D.loclBGR ;
+} loclLocalizedFormsinCyrilliclookup6;
+
+lookup aaltAccessAllAlternatesinLatinlookup0 {
+  lookupflag 0;
+    sub \y by \y.calt ;
+    sub \z by \z.alt ;
+} aaltAccessAllAlternatesinLatinlookup0;
+
+lookup ligaStandardLigaturesinLatinlookup1 {
+  lookupflag 0;
+    sub \f \f  by \f_f;
+    sub \f \f \i  by \f_f_i;
+    sub \f \f \l  by \f_f_l;
+    sub \f \i  by \fi;
+    sub \f \l  by \fl;
+    sub \f \t  by \ft;
+} ligaStandardLigaturesinLatinlookup1;
+
+lookup SingleSubstitutionlookup5 {
+  lookupflag 0;
+    sub \y by \y.calt ;
+} SingleSubstitutionlookup5;
+
+lookup caltContextualAlternatesinLatinlookup2 {
+  lookupflag 0;
+    sub [\u ] [\y ]'lookup SingleSubstitutionlookup5  ;
+    sub [\y ]'lookup SingleSubstitutionlookup5  [\u ] ;
+} caltContextualAlternatesinLatinlookup2;
+
+lookup ss01StyleSet1inLatinlookup3 {
+  lookupflag 0;
+    sub \z by \z.alt ;
+    sub \uni041B by \uni041B.ss01 ;
+    sub \uni043A by \uni043A.ss01 ;
+    sub \uni0446 by \uni0446.ss01 ;
+    sub \uni0449 by \uni0449.ss01 ;
+} ss01StyleSet1inLatinlookup3;
+
+lookup saltStylisticAlternativesinLatinlookup4 {
+  lookupflag 0;
+    sub \z by \z.alt ;
+} saltStylisticAlternativesinLatinlookup4;
+
+feature locl {
+
+ script cyrl;
+     language BGR  exclude_dflt;
+      lookup loclLocalizedFormsinCyrilliclookup6;
+} locl;
+
+feature aalt {
+
+ script latn;
+     language dflt ;
+      lookup aaltAccessAllAlternatesinLatinlookup0;
+} aalt;
+
+feature liga {
+
+ script latn;
+     language dflt ;
+      lookup ligaStandardLigaturesinLatinlookup1;
+} liga;
+
+feature calt {
+
+ script latn;
+     language dflt ;
+      lookup caltContextualAlternatesinLatinlookup2;
+} calt;
+
+feature ss01 {
+
+ script DFLT;
+     language dflt ;
+      lookup ss01StyleSet1inLatinlookup3;
+
+ script cyrl;
+     language BGR  exclude_dflt;
+      lookup ss01StyleSet1inLatinlookup3;
+} ss01;
+
+feature salt {
+
+ script latn;
+     language dflt ;
+      lookup saltStylisticAlternativesinLatinlookup4;
+} salt;
+
+# GPOS 
+
+
+lookup kernHorizontalKerninginLatinlookup0 {
+  lookupflag IgnoreMarks;
+    pos \T \t -55;
+  subtable;
+    @kc9_first_0 = [\P ];
+    @kc9_first_1 = [\T ];
+    @kc9_first_2 = [\A \Aacute \Acircumflex \Adieresis \Agrave \Aring \Atilde ];
+    @kc9_first_3 = [\D \O \Q \Eth \Oacute \Ocircumflex \Odieresis \Ograve \Oslash \Otilde ];
+    @kc9_first_4 = [\K ];
+    @kc9_first_5 = [\L \Lslash ];
+    @kc9_first_6 = [\N \Ntilde ];
+    @kc9_first_7 = [\S \Scaron ];
+    @kc9_first_8 = [\V \W \Y \Yacute \Ydieresis ];
+    @kc9_first_9 = [\X ];
+    @kc9_second_1 = [\AE ];
+    @kc9_second_2 = [\f ];
+    @kc9_second_3 = [\quotedbl \quotesingle \quotedblleft \quotedblright \quoteleft \quoteright ];
+    @kc9_second_4 = [\C \G \O \Q \Ccedilla \Oacute \Ocircumflex \Odieresis \Ograve \Oslash \Otilde \OE ];
+    @kc9_second_5 = [\T ];
+    @kc9_second_6 = [\V \W \Y \Yacute \Ydieresis ];
+    @kc9_second_7 = [\c \d \e \g \o \q \ccedilla \eth \eacute \ecircumflex \edieresis \egrave \oacute 
+	\ocircumflex \odieresis \ograve \oslash \otilde \oe ];
+    @kc9_second_8 = [\v \w \y \yacute \ydieresis ];
+    @kc9_second_9 = [\A \Aacute \Acircumflex \Adieresis \Agrave \Aring \Atilde ];
+    @kc9_second_10 = [\a \aacute \acircumflex \adieresis \agrave \aring \atilde \ae ];
+    @kc9_second_11 = [\u \uacute \ucircumflex \udieresis \ugrave \uni00B5 ];
+    @kc9_second_12 = [\i \j \iacute \icircumflex \idieresis \igrave ];
+    @kc9_second_13 = [\m \n \p \r \t \z \dotlessi \ntilde ];
+    @kc9_second_14 = [\s \scaron ];
+    pos @kc9_first_0 @kc9_second_1 -90;
+    pos @kc9_first_0 @kc9_second_9 -65;
+    pos @kc9_first_1 @kc9_second_1 -120;
+    pos @kc9_first_1 @kc9_second_2 -55;
+    pos @kc9_first_1 @kc9_second_7 -70;
+    pos @kc9_first_1 @kc9_second_9 -65;
+    pos @kc9_first_1 @kc9_second_10 -95;
+    pos @kc9_first_1 @kc9_second_11 -70;
+    pos @kc9_first_1 @kc9_second_12 -55;
+    pos @kc9_first_1 @kc9_second_13 -85;
+    pos @kc9_first_1 @kc9_second_14 -85;
+    pos @kc9_first_2 @kc9_second_3 -70;
+    pos @kc9_first_2 @kc9_second_4 -20;
+    pos @kc9_first_2 @kc9_second_5 -65;
+    pos @kc9_first_2 @kc9_second_6 -80;
+    pos @kc9_first_2 @kc9_second_7 -30;
+    pos @kc9_first_2 @kc9_second_8 -40;
+    pos @kc9_first_3 @kc9_second_9 -30;
+    pos @kc9_first_4 @kc9_second_7 -20;
+    pos @kc9_first_4 @kc9_second_8 -40;
+    pos @kc9_first_5 @kc9_second_3 -70;
+    pos @kc9_first_5 @kc9_second_5 -50;
+    pos @kc9_first_5 @kc9_second_6 -70;
+    pos @kc9_first_6 @kc9_second_10 -40;
+    pos @kc9_first_6 @kc9_second_11 -25;
+    pos @kc9_first_7 @kc9_second_9 -30;
+    pos @kc9_first_8 @kc9_second_1 -110;
+    pos @kc9_first_8 @kc9_second_7 -95;
+    pos @kc9_first_8 @kc9_second_9 -80;
+    pos @kc9_first_8 @kc9_second_10 -80;
+    pos @kc9_first_9 @kc9_second_7 -50;
+  subtable;
+    @kc10_first_0 = [\f \f_f ];
+    @kc10_second_1 = [\exclam ];
+    @kc10_second_2 = [\quotedbl \quotesingle \quotedblleft \quotedblright \quoteleft \quoteright ];
+    @kc10_second_3 = [\parenright \bracketright \braceright ];
+    @kc10_second_4 = [\asterisk ];
+    @kc10_second_5 = [\question ];
+    @kc10_second_6 = [\trademark ];
+    pos @kc10_first_0 @kc10_second_1 100;
+    pos @kc10_first_0 @kc10_second_2 120;
+    pos @kc10_first_0 @kc10_second_3 110;
+    pos @kc10_first_0 @kc10_second_4 100;
+    pos @kc10_first_0 @kc10_second_5 100;
+    pos @kc10_first_0 @kc10_second_6 100;
+  subtable;
+    @kc11_first_0 = [\quotedbl \quotesingle \quotedblleft \quotedblright \quoteleft \quoteright ];
+    @kc11_second_1 = [\A \Aacute \Acircumflex \Adieresis \Agrave \Aring \Atilde ];
+    pos @kc11_first_0 @kc11_second_1 -70;
+} kernHorizontalKerninginLatinlookup0;
+
+feature kern {
+
+ script latn;
+     language dflt ;
+      lookup kernHorizontalKerninginLatinlookup0;
+} kern;
+#Mark attachment classes (defined in GDEF, used in lookupflags)
+
+@GDEF_Simple = [\_1 \CR \NULL \space \exclam \quotedbl \numbersign \dollar \percent 
+	\ampersand \quotesingle \parenleft \parenright \asterisk \plus \comma \hyphen 
+	\period \slash \zero \one \two \three \four \five \six \seven \eight \nine \colon 
+	\semicolon \less \equal \greater \question \at \A \B \C \D \E \F \G \H \I \J \K \L \M \N \O 
+	\P \Q \R \S \T \U \V \W \X \Y \Z \bracketleft \backslash \bracketright \asciicircum 
+	\underscore \grave \a \b \c \d \e \g \h \j \k \m \n \o \p \q \r \s \u \v \w \x \y \z \braceleft 
+	\bar \braceright \asciitilde \uni00A0 \uni0401 \uni0402 \uni0403 \uni0404 
+	\uni0405 \uni0406 \uni0407 \uni0408 \uni0409 \uni040A \uni040B \uni040C \uni00AD 
+	\uni040E \uni040F \uni0410 \uni0411 \uni0412 \uni0413 \uni0414 \uni0415 \uni0416 
+	\uni0417 \uni0418 \uni0419 \uni041A \uni041B \uni041C \uni041D \uni041E \uni041F 
+	\uni0420 \uni0421 \uni0422 \uni0423 \uni0424 \uni0425 \uni0426 \uni0427 \uni0428 
+	\uni0429 \uni042A \uni042B \uni042C \uni042D \uni042E \uni042F \uni0430 \uni0431 
+	\uni0432 \uni0433 \uni0434 \uni0435 \uni0436 \uni0437 \uni0438 \uni0439 \uni043A 
+	\uni043B \uni043C \uni043D \uni043E \uni043F \uni0440 \uni0441 \uni0442 \uni0443 
+	\uni0444 \uni0445 \uni0446 \uni0447 \uni0448 \uni0449 \uni044A \uni044B \uni044C 
+	\uni044D \uni044E \uni044F \uni2116 \uni0451 \uni0452 \uni0453 \uni0454 \uni0455 
+	\uni0456 \uni0457 \uni0458 \uni0459 \uni045A \uni045B \uni045C \section \uni045E 
+	\uni045F \Aacute \Acircumflex \Adieresis \Agrave \Aring \Atilde \AE \Ccedilla 
+	\Eth \Eacute \Ecircumflex \Edieresis \Egrave \Iacute \Icircumflex \Idieresis 
+	\Igrave \Lslash \Ntilde \Oacute \Ocircumflex \Odieresis \Ograve \Oslash \Otilde 
+	\OE \Thorn \Scaron \Uacute \Ucircumflex \Udieresis \Ugrave \Yacute \Ydieresis 
+	\Zcaron \aacute \acircumflex \adieresis \agrave \aring \atilde \ae \ccedilla \eth 
+	\eacute \ecircumflex \edieresis \egrave \dotlessi \iacute \icircumflex 
+	\idieresis \igrave \lslash \ntilde \oacute \ocircumflex \odieresis \ograve 
+	\oslash \otilde \oe \thorn \scaron \germandbls \uacute \ucircumflex \udieresis 
+	\ugrave \yacute \ydieresis \zcaron \f.alt \z.alt \y.calt \ordfeminine 
+	\ordmasculine \uni0410.loclBGR \uni0411.loclBGR \uni0412.loclBGR 
+	\uni0413.loclBGR \uni0490 \uni0414.loclBGR \uni0415.loclBGR \uni0400 
+	\uni0416.loclBGR \uni0417.loclBGR \uni0418.loclBGR \uni0419.loclBGR \uni040D 
+	\uni041A.loclBGR \uni041B.loclBGR \uni041C.loclBGR \uni041D.loclBGR 
+	\uni041E.loclBGR \uni041F.loclBGR \uni0420.loclBGR \uni0421.loclBGR 
+	\uni0422.loclBGR \uni0423.loclBGR \uni0424.loclBGR \uni0425.loclBGR 
+	\uni0427.loclBGR \uni0426.loclBGR \uni0428.loclBGR \uni0429.loclBGR 
+	\uni042C.loclBGR \uni042A.loclBGR \uni042B.loclBGR \uni042D.loclBGR 
+	\uni042E.loclBGR \uni042F.loclBGR \uni0462 \uni046A \uni0472 \uni0474 \uni0492 
+	\uni0494 \uni0496 \uni0498 \uni049A \uni049C \uni04A0 \uni04A2 \uni0524 \uni04AA 
+	\uni04AE \uni04B0 \uni04B6 \uni04B8 \uni04BA \uni04C0 \uni04C1 \uni04CB \uni04D0 
+	\uni04D2 \uni04D6 \uni04D8 \uni04DC \uni04DE \uni04E2 \uni04E4 \uni04E6 \uni04E8 
+	\uni04EE \uni04F0 \uni04F2 \uni04F4 \uni04F6 \uni04F8 \uni051A \uni051C 
+	\uni0430.loclBGR \uni0431.loclBGR \uni0432.loclBGR \uni0433.loclBGR \uni0491 
+	\uni0434.loclBGR \uni0435.loclBGR \uni0450 \uni0436.loclBGR \uni0437.loclBGR 
+	\uni0438.loclBGR \uni0439.loclBGR \uni045D.loclBGR \uni043A.loclBGR 
+	\uni043B.loclBGR \uni043C.loclBGR \uni043D.loclBGR \uni043E.loclBGR 
+	\uni043F.loclBGR \uni0440.loclBGR \uni0441.loclBGR \uni0442.loclBGR 
+	\uni0443.loclBGR \uni0444.loclBGR \uni0445.loclBGR \uni0447.loclBGR 
+	\uni0446.loclBGR \uni0448.loclBGR \uni0449.loclBGR \uni044C.loclBGR 
+	\uni044A.loclBGR \uni044B.loclBGR \uni044D.loclBGR \uni044E.loclBGR 
+	\uni044F.loclBGR \uni0463 \uni046B \uni0473 \uni0475 \uni0493 \uni0495 \uni0497 
+	\uni0499 \uni049B \uni049D \uni04A1 \uni04A3 \uni0525 \uni04AB \uni04AF \uni04B1 
+	\uni04B7 \uni04B9 \uni04BB \uni04CF \uni04C2 \uni04CC \uni04D1 \uni04D3 \uni04D7 
+	\uni04D9 \uni04DD \uni04DF \uni04E3 \uni04E5 \uni04E7 \uni04E9 \uni04EF \uni04F1 
+	\uni04F3 \uni04F5 \uni04F7 \uni04F9 \uni051B \uni051D \uni04A4 \uni04A5 \uni04D4 
+	\uni04D5 \pi \uni2080 \uni2081 \uni2082 \uni2083 \uni2084 \uni2085 \uni2086 
+	\uni2087 \uni2088 \uni2089 \uni00B9 \uni00B2 \uni00B3 \uni2074 \fraction 
+	\onehalf \onequarter \threequarters \middot \bullet \ellipsis \exclamdown 
+	\questiondown \emdash \endash \guillemotleft \guillemotright \guilsinglleft 
+	\guilsinglright \quotedblbase \quotedblleft \quotedblright \quoteleft 
+	\quoteright \quotesinglbase \cent \currency \Euro \florin \sterling \yen 
+	\uni2215 \minus \multiply \divide \notequal \greaterequal \lessequal \plusminus 
+	\approxequal \logicalnot \infinity \integral \uni2126 \uni2206 \product 
+	\summation \radical \uni00B5 \partialdiff \perthousand \lozenge \uniF8FF 
+	\paragraph \copyright \registered \trademark \degree \brokenbar \dagger 
+	\daggerdbl \uni0308 \uni0307 \gravecomb \acutecomb \uni030B \uni0302 \uni030C 
+	\uni0306 \uni030A \tildecomb \uni0304 \uni0327 \uni0328 \uni0335 \uni0308.case 
+	\uni0307.case \gravecomb.case \acutecomb.case \uni030B.case \uni0302.case 
+	\uni030C.case \uni0306.case \uni030A.case \tildecomb.case \uni0304.case 
+	\uni030C.salt \acute \breve \caron \cedilla \circumflex \dieresis \dotaccent 
+	\hungarumlaut \overscore \ogonek \ring \tilde \acute.case \breve.case 
+	\caron.case \circumflex.case \dieresis.case \dotaccent.case \grave.case 
+	\hungarumlaut.case \macron.case \ring.case \tilde.case \caron.salt 
+	\brevecombcy \brevecombcy.case \eslash \uni045D \uni043A.ss01 \uni041B.ss01 
+	\uni0446.ss01 \uni0449.ss01 ];
+@GDEF_Ligature = [\f_f \f_f_i \f_f_l \fi \fl \ft ];
+@GDEF_Component = [\f \i \l \t ];
+
+table GDEF {
+  GlyphClassDef @GDEF_Simple, @GDEF_Ligature, , @GDEF_Component;
+
+} GDEF;
+
