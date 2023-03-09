@@ -2,4 +2,4 @@ sources:
   - Gabriela.glyphs
 familyName: Gabriela
 buildVariable: false
-autohint: false
+autohintTTF: false
