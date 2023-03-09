@@ -90,13 +90,18 @@ feature salt;
 tag = aalt;
 },
 {
-automatic = 1;
 code = "lookup ccmp_Other_1 {
 	@CombiningTopAccents = [acutecomb brevecomb caroncomb circumflexcomb commaturnedabovecomb dieresiscomb dotaccentcomb gravecomb hungarumlautcomb macroncomb ringcomb tildecomb];
 	@CombiningNonTopAccents = [cedillacomb ogonekcomb strokeshortcomb];
 	sub [i j]' @CombiningTopAccents by [idotless jdotless];
 	sub [i j]' @CombiningNonTopAccents @CombiningTopAccents by [idotless jdotless];
 	@Markscomb = [brevecomb-cy dieresiscomb dotaccentcomb gravecomb acutecomb hungarumlautcomb circumflexcomb caroncomb brevecomb ringcomb tildecomb macroncomb dieresis dotaccent grave acute hungarumlaut circumflex caron breve ring tilde macron];
+    @SoftDotted = [i j i-cy je-cy];
+	@SoftDottedDotless = [idotless jdotless idotless jdotless];
+	sub @SoftDotted' @CombiningTopAccents by @SoftDottedDotless;
+	sub @SoftDotted' @CombiningNonTopAccents @CombiningTopAccents by @SoftDottedDotless;
+	sub iogonek' @CombiningTopAccents by idotless ogonekcomb;
+	sub iogonek' @CombiningNonTopAccents @CombiningTopAccents by idotless ogonekcomb;
 	@MarkscombCase = [brevecomb-cy.case dieresiscomb.case dotaccentcomb.case gravecomb.case acutecomb.case hungarumlautcomb.case circumflexcomb.case caroncomb.case brevecomb.case ringcomb.case tildecomb.case macroncomb.case dieresis.case dotaccent.case grave.case acute.case hungarumlaut.case circumflex.case caron.case breve.case ring.case tilde.case macron.case];
 	sub @Markscomb @Markscomb' by @MarkscombCase;
 	sub @Uppercase @Markscomb' by @MarkscombCase;
@@ -51375,43 +51380,6 @@ unicode = 45;
 glyphname = softhyphen;
 layers = (
 {
-background = {
-hints = (
-{
-horizontal = 1;
-place = (257, 70);
-place = (257, 70);
-type = Stem;
-},
-{
-horizontal = 1;
-place = (332, -20);
-target = down;
-type = TopGhost;
-},
-{
-horizontal = 1;
-place = (252, 21);
-target = up;
-type = BottomGhost;
-}
-);
-shapes = (
-{
-closed = 1;
-nodes = (
-(296,262,l),
-(316,277,o),
-(322,308,o),
-(322,332,c),
-(59,322,l),
-(40,307,o),
-(33,276,o),
-(33,252,c)
-);
-}
-);
-};
 hints = (
 {
 horizontal = 1;
@@ -51433,22 +51401,7 @@ type = BottomGhost;
 }
 );
 layerId = UUID0;
-shapes = (
-{
-closed = 1;
-nodes = (
-(418,262,l),
-(438,277,o),
-(444,308,o),
-(444,332,c),
-(181,322,l),
-(162,307,o),
-(155,276,o),
-(155,252,c)
-);
-}
-);
-width = 600;
+width = 0;
 }
 );
 unicode = 173;
