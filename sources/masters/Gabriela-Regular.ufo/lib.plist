@@ -229,8 +229,6 @@
     <string>Yerudieresis-cy</string>
     <string>Qa-cy</string>
     <string>We-cy</string>
-    <string>De-cy.loclBGR</string>
-    <string>El-cy.loclBGR</string>
     <string>a-cy</string>
     <string>be-cy</string>
     <string>ve-cy</string>
@@ -322,6 +320,8 @@
     <string>yerudieresis-cy</string>
     <string>qa-cy</string>
     <string>we-cy</string>
+    <string>De-cy.loclBGR</string>
+    <string>El-cy.loclBGR</string>
     <string>ve-cy.loclBGR</string>
     <string>ge-cy.loclBGR</string>
     <string>de-cy.loclBGR</string>
@@ -331,18 +331,18 @@
     <string>iishort-cy.loclBGR</string>
     <string>iigrave-cy.loclBGR</string>
     <string>ka-cy.loclBGR</string>
+    <string>ka-cy.ss01</string>
     <string>el-cy.loclBGR</string>
     <string>en-cy.loclBGR</string>
     <string>pe-cy.loclBGR</string>
     <string>te-cy.loclBGR</string>
-    <string>che-cy.loclBGR</string>
     <string>tse-cy.loclBGR</string>
+    <string>che-cy.loclBGR</string>
     <string>sha-cy.loclBGR</string>
     <string>shcha-cy.loclBGR</string>
-    <string>softsign-cy.loclBGR</string>
     <string>hardsign-cy.loclBGR</string>
+    <string>softsign-cy.loclBGR</string>
     <string>iu-cy.loclBGR</string>
-    <string>ka-cy.ss01</string>
     <string>pi</string>
     <string>zero</string>
     <string>one</string>
