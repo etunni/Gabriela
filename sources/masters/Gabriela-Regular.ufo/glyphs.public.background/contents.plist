@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>De-cy</key>
+  <string>D_e-cy.glif</string>
+  <key>Fita-cy</key>
+  <string>F_ita-cy.glif</string>
+  <key>Gheupturn-cy</key>
+  <string>G_heupturn-cy.glif</string>
+  <key>H</key>
+  <string>H_.glif</string>
+  <key>Ii-cy</key>
+  <string>I_i-cy.glif</string>
+  <key>Kabashkir-cy</key>
+  <string>K_abashkir-cy.glif</string>
+  <key>Lje-cy</key>
+  <string>L_je-cy.glif</string>
+  <key>Schwa-cy</key>
+  <string>S_chwa-cy.glif</string>
+  <key>Shha-cy</key>
+  <string>S_hha-cy.glif</string>
+  <key>Yat-cy</key>
+  <string>Y_at-cy.glif</string>
+  <key>Yusbig-cy</key>
+  <string>Y_usbig-cy.glif</string>
+  <key>Zedescender-cy</key>
+  <string>Z_edescender-cy.glif</string>
+  <key>caroncomb.salt</key>
+  <string>caroncomb.salt.glif</string>
+  <key>de-cy</key>
+  <string>de-cy.glif</string>
+  <key>descender-cy.case</key>
+  <string>descender-cy.case.glif</string>
+  <key>endescender-cy</key>
+  <string>endescender-cy.glif</string>
+  <key>enghe-cy</key>
+  <string>enghe-cy.glif</string>
+  <key>izhitsa-cy</key>
+  <string>izhitsa-cy.glif</string>
+  <key>kabashkir-cy</key>
+  <string>kabashkir-cy.glif</string>
+  <key>lje-cy</key>
+  <string>lje-cy.glif</string>
+  <key>pe-cy</key>
+  <string>pe-cy.glif</string>
+  <key>schwa-cy</key>
+  <string>schwa-cy.glif</string>
+  <key>sha-cy.loclBGR</key>
+  <string>sha-cy.loclB_G_R_.glif</string>
+  <key>ve-cy.loclBGR</key>
+  <string>ve-cy.loclB_G_R_.glif</string>
+</dict>
+</plist>

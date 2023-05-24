@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="caron.case" format="2">
+  <advance width="275"/>
+  <outline>
+    <contour>
+      <point x="152" y="799" type="line"/>
+      <point x="174" y="812"/>
+      <point x="231" y="879"/>
+      <point x="275" y="957" type="curve"/>
+      <point x="243" y="985" type="line"/>
+      <point x="138" y="901" type="line"/>
+      <point x="34" y="985" type="line"/>
+      <point x="1" y="957" type="line"/>
+      <point x="45" y="881"/>
+      <point x="99" y="814"/>
+      <point x="125" y="799" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>w275m152,799c174,812 231,879 275,957l243,985l138,901l34,985l1,957c45,881 99,814 125,799</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem 820 -21</string>
+          <string>hstem 985 -20</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

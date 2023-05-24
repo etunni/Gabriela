@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="el-cy.loclBGR" format="2">
+  <advance width="528"/>
+  <outline>
+    <contour>
+      <point x="184" y="13" type="line"/>
+      <point x="173" y="0" type="line"/>
+      <point x="79" y="-14" type="line"/>
+      <point x="55" y="53"/>
+      <point x="45" y="109"/>
+      <point x="45" y="175" type="curve" smooth="yes"/>
+      <point x="45" y="330"/>
+      <point x="143" y="510"/>
+      <point x="290" y="510" type="curve" smooth="yes"/>
+      <point x="377" y="510"/>
+      <point x="439" y="468"/>
+      <point x="439" y="371" type="curve"/>
+      <point x="440" y="94" type="line" smooth="yes"/>
+      <point x="440" y="77"/>
+      <point x="447" y="72"/>
+      <point x="460" y="72" type="curve" smooth="yes"/>
+      <point x="504" y="72" type="line"/>
+      <point x="513" y="46" type="line"/>
+      <point x="476" y="11"/>
+      <point x="420" y="-14"/>
+      <point x="381" y="-14" type="curve" smooth="yes"/>
+      <point x="363" y="-14"/>
+      <point x="349" y="-3"/>
+      <point x="349" y="18" type="curve" smooth="yes"/>
+      <point x="349" y="330" type="line"/>
+      <point x="349" y="387"/>
+      <point x="335" y="461"/>
+      <point x="284" y="461" type="curve" smooth="yes"/>
+      <point x="196" y="461"/>
+      <point x="129" y="347"/>
+      <point x="129" y="249" type="curve" smooth="yes"/>
+      <point x="129" y="172"/>
+      <point x="132" y="109"/>
+      <point x="173" y="22" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.999,1,0.6,1</string>
+  </dict>
+  </lib>
+</glyph>

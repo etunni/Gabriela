@@ -1,0 +1,196 @@
+#> classes
+#/> otclasses
+@normal = [hungarumlaut acute ampersand circumflex grave a b c d e f g h i j k l m n o p q r s t u v w x y z tilde lslash scaron zcaron dieresis breve caron dotaccent macron ogonek ring cedilla agrave aacute acircumflex atilde adieresis aring ae ccedilla egrave eacute ecircumflex edieresis igrave iacute icircumflex idieresis eth ntilde ograve oacute ocircumflex otilde odieresis oe oslash ugrave uacute ucircumflex udieresis yacute thorn ydieresis fi fl germandbls ordfeminine ordmasculine exclam question exclamdown questiondown];
+@num_lfig = [parenleft parenright];
+@snum = [zero one two three four five six seven eight nine parenleft parenright];
+@num_sups = [onesuperior twosuperior threesuperior];
+@num_frac = [onehalf onequarter threequarters];
+@mayusculas = [A B C D E F G H I J K L M N O P Q R S T U V W X Y Z AE OE germandbls Eth Aacute Acircumflex Adieresis Agrave Aring Atilde Ccedilla Eacute Ecircumflex Edieresis Egrave Iacute Icircumflex Idieresis Igrave Ntilde Oacute Ocircumflex Odieresis Ograve Otilde Scaron Uacute Ucircumflex Udieresis Ugrave Yacute Ydieresis Zcaron];
+@case1 = [parenleft parenright hyphen bracketleft bracketright braceleft bar braceright brokenbar guillemotleft guillemotright endash emdash bullet guilsinglleft guilsinglright];
+#/< otclasses
+
+#/> kernclasses
+@R_A = [A Aacute Acircumflex Adieresis Agrave Aring Atilde];
+@R_C = [C Ccedilla G O OE Oacute Ocircumflex Odieresis Ograve Oslash Otilde Q];
+@R_T = [T];
+@R_U = [U Uacute Ucircumflex Udieresis Ugrave];
+@R_V = [V W Y Yacute Ydieresis];
+@R_a = [a aacute acircumflex adieresis ae agrave aring atilde];
+@R_c = [c ccedilla d e eacute ecircumflex edieresis egrave eth g o oacute ocircumflex odieresis oe ograve oslash otilde q];
+@R_comma = [comma ellipsis period quotedblbase quotesinglbase];
+@R_i = [i iacute icircumflex idieresis igrave j];
+@R_m = [idotless m n ntilde p r t z];
+@R_parenright = [braceright bracketright parenright];
+@R_quotedbl = [quotedbl quotedblleft quotedblright quoteleft quoteright quotesingle];
+@R_s = [s scaron];
+@R_u = [micro u uacute ucircumflex udieresis ugrave];
+@R_v = [v w y yacute ydieresis];
+@L_A = [A Aacute Acircumflex Adieresis Agrave Aring Atilde];
+@L_D = [D Eth O Oacute Ocircumflex Odieresis Ograve Oslash Otilde Q];
+@L_F = [F];
+@L_J = [J];
+@L_K = [K];
+@L_L = [L Lslash];
+@L_N = [N Ntilde];
+@L_P = [P];
+@L_S = [S Scaron];
+@L_T = [T];
+@L_U = [U Uacute Ucircumflex Udieresis Ugrave];
+@L_V = [V W Y Yacute Ydieresis];
+@L_f = [f f_f];
+@L_quotedbl = [quotedbl quotedblleft quotedblright quoteleft quoteright quotesingle];
+#/< kernclasses
+
+#/> tags
+@noexport = [descender-cy descender-cy.case ka-cy.ss01 verticalbar-cy verticalbar-cy.case];
+#/< tags
+#< classes
+
+# FEA syntax (compatible with AFDKO 2.5 and FLS 5.1)
+# LANGUAGESYSTEMS BEGIN
+languagesystem latn dflt;
+# LANGUAGESYSTEMS END
+
+feature aalt {
+# Access All Alternates
+
+#> feature
+  feature locl;
+  feature sups;
+  feature salt;
+  feature ss01;
+  feature case;
+#< feature
+} aalt;
+feature locl {
+# Localized Forms
+
+#> feature
+  script cyrl; # Cyrillic
+  language BGR; # Bulgarian
+  sub De-cy by De-cy.loclBGR;
+  sub El-cy by El-cy.loclBGR;
+  sub che-cy by che-cy.loclBGR;
+  sub de-cy by de-cy.loclBGR;
+  sub el-cy by el-cy.loclBGR;
+  sub en-cy by en-cy.loclBGR;
+  sub ge-cy by ge-cy.loclBGR;
+  sub hardsign-cy by hardsign-cy.loclBGR;
+  sub ii-cy by ii-cy.loclBGR;
+  sub iigrave-cy by iigrave-cy.loclBGR;
+  sub iishort-cy by iishort-cy.loclBGR;
+  sub iu-cy by iu-cy.loclBGR;
+  sub ka-cy by ka-cy.loclBGR;
+  sub pe-cy by pe-cy.loclBGR;
+  sub sha-cy by sha-cy.loclBGR;
+  sub shcha-cy by shcha-cy.loclBGR;
+  sub softsign-cy by softsign-cy.loclBGR;
+  sub te-cy by te-cy.loclBGR;
+  sub tse-cy by tse-cy.loclBGR;
+  sub ve-cy by ve-cy.loclBGR;
+  sub ze-cy by ze-cy.loclBGR;
+  sub zhe-cy by zhe-cy.loclBGR;
+#< feature
+} locl;
+
+feature sups {
+# Superscript
+
+#> feature
+  sub four by foursuperior;
+  sub one by onesuperior;
+  sub three by threesuperior;
+  sub two by twosuperior;
+#< feature
+} sups;
+
+feature frac {
+# Fractions
+
+#> feature
+lookup frac_precomposed {
+
+  sub one slash four by onequarter;
+  sub one slash two by onehalf;
+  sub three slash four by threequarters;
+  sub one fraction four by onequarter;
+  sub one fraction two by onehalf;
+  sub three fraction four by threequarters;
+} frac_precomposed;
+#< feature
+} frac;
+
+feature ordn {
+# Ordinals
+
+#> feature
+  sub [zero one two three four five six seven eight nine] [A a]' by ordfeminine;
+  sub [zero one two three four five six seven eight nine] [O o]' by ordmasculine;
+  sub N o period by numero;
+#< feature
+} ordn;
+
+feature salt {
+# Stylistic Alternates
+
+#> feature
+  sub caron from [caron.salt];
+  sub caroncomb from [caroncomb.salt];
+  sub f from [f.alt];
+  sub ka-cy from [ka-cy.ss01];
+  sub z from [z.alt];
+#< feature
+} salt;
+
+feature ss01 {
+# Stylistic Set 01–20
+
+#> feature
+  sub ka-cy by ka-cy.ss01;
+#< feature
+} ss01;
+
+feature liga {
+# Standard Ligatures
+
+#> feature
+  sub f f by f_f;
+  sub f i by fi;
+  sub f l by fl;
+  sub f f i by f_f_i;
+  sub f f l by f_f_l;
+#< feature
+} liga;
+
+feature case {
+# Case Sensitive Forms
+
+#> feature
+  sub acute by acute.case;
+  sub acutecomb by acutecomb.case;
+  sub breve by breve.case;
+  sub brevecomb by brevecomb.case;
+  sub brevecomb-cy by brevecomb-cy.case;
+  sub caron by caron.case;
+  sub caroncomb by caroncomb.case;
+  sub circumflex by circumflex.case;
+  sub circumflexcomb by circumflexcomb.case;
+  sub descender-cy by descender-cy.case;
+  sub dieresis by dieresis.case;
+  sub dieresiscomb by dieresiscomb.case;
+  sub dotaccent by dotaccent.case;
+  sub dotaccentcomb by dotaccentcomb.case;
+  sub grave by grave.case;
+  sub gravecomb by gravecomb.case;
+  sub hungarumlaut by hungarumlaut.case;
+  sub hungarumlautcomb by hungarumlautcomb.case;
+  sub macron by macron.case;
+  sub macroncomb by macroncomb.case;
+  sub ring by ring.case;
+  sub ringcomb by ringcomb.case;
+  sub tilde by tilde.case;
+  sub tildecomb by tildecomb.case;
+  sub verticalbar-cy by verticalbar-cy.case;
+#< feature
+} case;
+

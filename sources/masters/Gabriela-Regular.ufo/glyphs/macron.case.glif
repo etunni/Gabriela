@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="macron.case" format="2">
+  <advance width="275"/>
+  <outline>
+    <contour>
+      <point x="259" y="838" type="line"/>
+      <point x="279" y="855"/>
+      <point x="285" y="891"/>
+      <point x="285" y="918" type="curve"/>
+      <point x="16" y="918" type="line"/>
+      <point x="-3" y="901"/>
+      <point x="-10" y="865"/>
+      <point x="-10" y="838" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>w275m259,838c279,855 285,891 285,918l16,918c-3,901 -10,865 -10,838</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem 838 80</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

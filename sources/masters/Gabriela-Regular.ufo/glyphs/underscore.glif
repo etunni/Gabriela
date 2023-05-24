@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="underscore" format="2">
+  <advance width="355"/>
+  <unicode hex="005F"/>
+  <outline>
+    <contour>
+      <point x="355" y="-84" type="line"/>
+      <point x="375" y="-69"/>
+      <point x="381" y="-38"/>
+      <point x="381" y="-14" type="curve"/>
+      <point x="0" y="-14" type="line"/>
+      <point x="-19" y="-29"/>
+      <point x="-26" y="-60"/>
+      <point x="-26" y="-84" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>w355m355,-84c375,-69 381,-38 381,-14l0,-14c-19,-29 -26,-60 -26,-84</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem -84 70</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

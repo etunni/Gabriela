@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="tildecomb" format="2">
+  <advance width="408"/>
+  <unicode hex="0303"/>
+  <anchor x="204" y="497" name="_top"/>
+  <anchor x="204" y="723" name="top"/>
+  <outline>
+    <component base="tilde"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.812,1,0.6,1</string>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>w408</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem 612 -21</string>
+          <string>hstem 630 54</string>
+          <string>hstem 719 -20</string>
+          <string>hstem 723 -20</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>
