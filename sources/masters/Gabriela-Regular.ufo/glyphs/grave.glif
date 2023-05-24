@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="grave" format="2">
+  <advance width="288"/>
+  <unicode hex="0060"/>
+  <outline>
+    <contour>
+      <point x="96" y="760" type="line"/>
+      <point x="71" y="748"/>
+      <point x="54" y="726"/>
+      <point x="54" y="697" type="curve" smooth="yes"/>
+      <point x="54" y="668"/>
+      <point x="69" y="645"/>
+      <point x="110" y="625" type="curve" smooth="yes"/>
+      <point x="223" y="569" type="line"/>
+      <point x="252" y="604" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>w288m96,760c71,748 54,726 54,697c54,668 69,645 110,625l223,569l252,604</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem 590 -21</string>
+          <string>hstem 760 -20</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Yusbig-cy" format="2">
+  <advance width="1016"/>
+  <outline>
+    <contour>
+      <point x="311" y="631"/>
+      <point x="315" y="655"/>
+      <point x="330" y="666" type="curve"/>
+      <point x="703" y="666" type="line"/>
+      <point x="703" y="648"/>
+      <point x="699" y="626"/>
+      <point x="684" y="614" type="curve"/>
+      <point x="311" y="614" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.812,1,0.6,1</string>
+  </dict>
+  </lib>
+</glyph>

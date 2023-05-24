@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='utf-8'?>
+<designspace format="4.0">
+ <axes/>
+ <sources>
+  <source familyname="Gabriela" stylename="Regular" filename="masters/Gabriela-Regular.ufo" name="Regular">
+   <lib copy="1"/>
+   <groups copy="1"/>
+   <info copy="1"/>
+   <features copy="1"/>
+   <location/>
+  </source>
+ </sources>
+ <lib>
+  <dict>
+   <key>GSDimensionPlugin.Dimensions</key>
+   <dict>
+    <key>UUID0</key>
+    <dict>
+     <key>HH</key>
+     <integer>61</integer>
+     <key>HV</key>
+     <integer>99</integer>
+     <key>OH</key>
+     <integer>57</integer>
+     <key>OV</key>
+     <integer>109</integer>
+     <key>nV</key>
+     <integer>92</integer>
+     <key>nd</key>
+     <integer>49</integer>
+     <key>oH</key>
+     <integer>52</integer>
+     <key>oV</key>
+     <integer>104</integer>
+     <key>tH</key>
+     <integer>63</integer>
+    </dict>
+   </dict>
+   <key>com.schriftgestaltung.font.Disable Last Change</key>
+   <integer>1</integer>
+   <key>com.schriftgestaltung.font.Use Line Breaks</key>
+   <integer>1</integer>
+  </dict>
+ </lib>
+ <instances>
+  <instance familyname="Gabriela" stylename="Regular" filename="instances/Gabriela-Regular.ufo" name="Regular">
+   <location/>
+  </instance>
+ </instances>
+</designspace>

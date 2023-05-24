@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="obarred-cy" format="2">
+  <advance width="623"/>
+  <unicode hex="04E9"/>
+  <outline>
+    <component base="o-cy" xScale="1.0781" yScale="1.0781"/>
+    <contour>
+      <point x="474" y="239" type="line"/>
+      <point x="491" y="253"/>
+      <point x="495" y="279"/>
+      <point x="495" y="299" type="curve"/>
+      <point x="139" y="299" type="line"/>
+      <point x="122" y="286"/>
+      <point x="117" y="258"/>
+      <point x="117" y="239" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.812,1,0.6,1</string>
+  </dict>
+  </lib>
+</glyph>
